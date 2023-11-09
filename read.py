@@ -1,7 +1,7 @@
 import openai
 import PyPDF2
 
-openai.api_key = "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"
+openai.api_key = "OpenAI API KEY"
 
 def reply_response(user_input):
     response = openai.Completion.create(
